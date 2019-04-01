@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\tutorial",
+    "\\tutorial\\tutorial",
+    "\\tutorial\\tutorial\\spiders"
+  ],
+  "SelectedNode": "\\tutorial\\tutorial\\spiders\\quotes_spider.py",
+  "PreviewInSolutionExplorer": false
+}
