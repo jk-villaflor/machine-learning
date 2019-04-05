@@ -66,7 +66,7 @@ ROBOTSTXT_OBEY = True
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
    'mlssoccer.pipelines.MlssoccerPipeline': 300,
-   # 'mlssoccer.pipelines.MongoPipeline':200,
+   # 'mlssoccer.pipelines.JsonWriterPipeline':200,
 }
 
 # Database values

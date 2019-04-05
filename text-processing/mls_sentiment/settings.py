@@ -8,10 +8,10 @@ MONGO_DATABASE = "MLS"
 
 
 #collections
-#MDB_players = "mls_players_stg"
-#MDB_tweets = "mls-tweets"
-MDB_players = "mls_players_stg1"
-MDB_tweets = "mls-tweets-stg"
+MDB_players = "mls_players_stg"
+MDB_tweets = "mls-tweets"
+#MDB_players = "mls_players_stg1"
+#MDB_tweets = "mls-tweets-stg"
 MDB_allstars = 'mls_allstar_stg'
 
 

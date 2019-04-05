@@ -8962,7 +8962,10 @@ def PlayerScore(tweets):
 training_set = nltk.classify.apply_features(extract_features, tweets)
 classifier = nltk.NaiveBayesClassifier.train(training_set)
 
+# print(classifier.classify(extract_features("hello".split())))
+
+
 # save the classifier
-# save_classifier = open("naivebayes.pickle","wb")
-# pickle.dump(classifier, save_classifier)
-# save_classifier.close()
+save_classifier = open("naivebayes.pickle","wb")
+pickle.dump(classifier, save_classifier)
+save_classifier.close()

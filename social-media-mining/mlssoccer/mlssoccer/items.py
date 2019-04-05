@@ -13,4 +13,7 @@ class MlssoccerItem(scrapy.Item):
     jersey_number = scrapy.Field()
     team_name = scrapy.Field()
     year = scrapy.Field()
+
+class MlslistItem(scrapy.Item):
+    url = scrapy.Field()
     pass
